@@ -6,6 +6,7 @@ import { ArrowUpRight, Menu, X } from "lucide-react"
 import Image from "next/image"
 
 const links = [
+  { label: "Home", href: "#home", id: "home" },
   { label: "Work", href: "#projects", id: "projects" },
   { label: "About", href: "#about", id: "about" },
   { label: "Contact", href: "#contact", id: "contact" },
