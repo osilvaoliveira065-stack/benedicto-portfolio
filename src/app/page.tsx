@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar />
 
       <section
-        id="top"
+        id="home"
         className="relative min-h-[100svh] bg-black px-5 pb-6 pt-24 sm:px-8 md:px-12"
       >
         <div className="relative mx-auto flex min-h-[calc(100svh-120px)] w-full max-w-7xl flex-col items-center justify-center">
