@@ -67,18 +67,6 @@ const extras = [
     priceUSD: "US$ 80",
   },
   {
-    service: "Admin Dashboard",
-    description: "Manage content, leads and business information easily.",
-    priceBRL: "+ R$ 2.000",
-    priceUSD: "+ US$ 450",
-  },
-  {
-    service: "Blog System",
-    description: "Publish content, articles and improve organic reach.",
-    priceBRL: "+ R$ 1.000",
-    priceUSD: "+ US$ 250",
-  },
-  {
     service: "Appointment & Booking System",
     description: "Turn visitors into appointments with a clear booking flow.",
     priceBRL: "+ R$ 1.200",
