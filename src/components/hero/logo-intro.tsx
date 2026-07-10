@@ -2,13 +2,13 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
-import { Section } from "@/components/ui/section"
+import { Section } from "@/components/ui/Section"
 
 export function LogoIntro() {
   return (
     <Section>
-    <div className="pointer-events-none relative mx-auto flex h-[360px] w-full max-w-6xl items-center justify-center sm:h-[460px]">
-      {/* Luz — sempre atrás */}
+      <div className="pointer-events-none relative mx-auto flex min-h-[420px] w-full max-w-6xl items-center justify-center overflow-visible sm:min-h-[560px]">
+        {/* Luz — sempre atrás */}
       <motion.div
         initial={{ opacity: 0, scale: 0.6 }}
         animate={{ opacity: 0.45, scale: 1 }}
@@ -73,13 +73,13 @@ export function LogoIntro() {
         <Image
           src="/brand/benedicto-angel.png"
           alt=""
-          width={900}
-          height={900}
+          width={800}
+          height={800}
           priority
-          className="h-auto w-full object-contain drop-shadow-[0_0_32px_rgba(255,255,255,0.18)]"
+          className="h-auto w-full scale-110 object-contain drop-shadow-[0_0_32px_rgba(255,255,255,0.18)]"
         />
       </motion.div>
     </div>
-      </Section>
+    </Section>
   )
 }
