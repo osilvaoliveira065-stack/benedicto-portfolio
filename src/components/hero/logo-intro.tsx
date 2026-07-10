@@ -5,7 +5,7 @@ import { motion } from "framer-motion"
 
 export function LogoIntro() {
   return (
-    <Section>
+    <div>
     <div className="pointer-events-none relative mx-auto flex h-[360px] w-full max-w-6xl items-center justify-center sm:h-[460px]">
       {/* Luz — sempre atrás */}
       <motion.div
@@ -79,6 +79,6 @@ export function LogoIntro() {
         />
       </motion.div>
     </div>
-      </Section>
+      </div>
   )
 }
