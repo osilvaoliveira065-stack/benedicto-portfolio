@@ -14,22 +14,32 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    number: "01",
-    title: "SESTRO INK",
-    category: "Tattoo Studio · Landing Page",
-    description:
-      "A conversion-focused booking experience built for a modern tattoo studio.",
-    image: "/projects/sestro-ink.png",
-    href: "#",
-    problem:
-      "The studio lacked a digital presence capable of reflecting its artistic quality and converting online visitors into actual bookings.",
-    solution:
-      "A bold, visually-driven landing page focused on artist discovery, social proof, and frictionless booking flow.",
-    impact:
-      "Increased booking intent, stronger brand perception, and improved trust from first-time visitors.",
-    tags: ["Next.js", "Conversion Design", "UI/UX", "Booking Flow"],
-    tech: ["Next.js", "Tailwind CSS", "Framer Motion"],
-  },
+  number: "01",
+  title: "KYAN",
+  category: "Official Artist Website · Music Platform",
+  description:
+    "An immersive official website designed to showcase releases, music videos, tour dates, and strengthen the artist's digital presence.",
+  image: "/projects/kyan.png",
+  href: "#",
+  problem:
+    "The artist needed a centralized platform that connected fans with new releases, videoclips, upcoming shows, and contact information while maintaining a strong visual identity.",
+  solution:
+    "Designed and developed a premium, dark-themed experience featuring a cinematic hero section, discography, music videos, tour schedule, and booking contact, all optimized for performance and engagement.",
+  impact:
+    "Strengthened the artist's online presence, improved accessibility to music platforms, increased visibility for upcoming shows, and created a professional destination for fans and event promoters.",
+  tags: [
+    "Next.js",
+    "Music Website",
+    "UI/UX",
+    "Artist Branding"
+  ],
+  tech: [
+    "Next.js",
+    "TypeScript",
+    "Tailwind CSS",
+    "Framer Motion"
+  ],
+},
   {
     number: "02",
     title: "Darkhaven",
