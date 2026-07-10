@@ -2,10 +2,11 @@
 
 import Image from "next/image"
 import { motion } from "framer-motion"
+import { Section } from "@/components/ui/section"
 
 export function LogoIntro() {
   return (
-    <div>
+    <Section>
     <div className="pointer-events-none relative mx-auto flex h-[360px] w-full max-w-6xl items-center justify-center sm:h-[460px]">
       {/* Luz — sempre atrás */}
       <motion.div
@@ -79,6 +80,6 @@ export function LogoIntro() {
         />
       </motion.div>
     </div>
-      </div>
+      </Section>
   )
 }
